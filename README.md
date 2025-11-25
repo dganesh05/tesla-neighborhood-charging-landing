@@ -4,7 +4,7 @@ A persuasive landing page built in **2 hours** for a frontend hackathon, educati
 
 🏆 **Placed 2nd at HAVK Web Development Competition** — Recognized for storytelling, brand consistency, and visual hierarchy.
 
-[Live Demo](https://your-vercel-url.vercel.app)
+[Live Demo](https://tesla-neighborhood-charging-landing.vercel.app/)
 
 ---
 
@@ -157,7 +157,7 @@ npm run dev
 
 ## 📝 License
 
-MIT License — feel free to use this as a template for your own landing pages!
+[MIT License](LICENSE.md) — feel free to use this as a template for your own landing pages!
 
 ---
 
