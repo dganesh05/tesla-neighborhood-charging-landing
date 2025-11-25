@@ -1,0 +1,23 @@
+.FinalCTA {
+    background-color: var(--black);
+    color: var(--white);
+    padding: 40px 20px;
+    text-align: center;
+    padding: 3rem 1.5rem;
+}
+
+.FinalCTA h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+}
+
+.CTA-button {
+    margin: 1rem 0.5rem;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.2s ease, color 0.2s ease;
+}

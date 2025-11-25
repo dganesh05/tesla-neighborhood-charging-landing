@@ -1,0 +1,28 @@
+.Footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;    
+  background-color: #000;
+  padding: 20px;
+  text-align: center;
+}
+
+.Footer ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.Footer a:hover {
+  text-decoration: underline;
+}
