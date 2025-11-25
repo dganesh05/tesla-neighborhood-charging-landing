@@ -10,17 +10,24 @@ const Hero = ({ title, subtitle, backgroundImage }) => {
         backgroundImage: `radial-gradient(circle at center, rgba(0,0,0,0.35), rgba(0,0,0,0.6))`,
       };
 
-    function navigateToCalculator() {
-      const calculatorSection = document.querySelector('#calculator, .Calculator, .calculator, [data-section="calculator"]');
-      if (!calculatorSection) return;
+  function navigateToCalculator() {
+    const calculatorSection = document.querySelector(
+      '#calculator, .Calculator, .calculator, [data-section="calculator"]'
+    );
+    if (!calculatorSection) return;
 
-      try {
-        calculatorSection.scrollIntoView({ behavior: 'smooth', block: 'start', inline: 'nearest' });
-      } catch (_) {
-        const top = calculatorSection.getBoundingClientRect().top + window.pageYOffset;
-        window.scrollTo({ top, behavior: 'smooth' });
-      }
+    try {
+      calculatorSection.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+        inline: "nearest",
+      });
+    } catch (_) {
+      const top =
+        calculatorSection.getBoundingClientRect().top + window.pageYOffset;
+      window.scrollTo({ top, behavior: "smooth" });
     }
+  }
 
   return (
     <div
